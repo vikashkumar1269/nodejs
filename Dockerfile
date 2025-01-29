@@ -16,8 +16,3 @@ EXPOSE 3000
 
 # Set the default command to run the Node.js server
 CMD ["node", "server.js"]
-
-app.listen(3000, '0.0.0.0', () => {
-    console.log('Server is running on port 3000');
-});
-
